@@ -1,0 +1,25 @@
+main{
+  width:600px;
+  height:fit-content;
+  background-color: white;
+  padding:15px;
+  border-radius: 10px;}
+  .title{
+    padding:10px;
+    display: flex;
+    justify-content: space-between;
+
+  }
+.notifibtn{
+  font-size: 25px;
+  font-weight: bold;
+  border:none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.readbtn{
+  color:hsl(219, 14%, 63%);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.notif{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin: 10px;
+}
+ img{
+    width:40px;
+}
+.user{
+    font-weight: bold;
+    margin-top: 5px;
+}
+.action{
+    margin: 5px;
+    color:hsl(219, 14%, 63%);
+}
+.details{
+    color: hsl(219, 12%, 42%);
+    font-weight: bold;
+}
+.time{
+    display:block;
+    color:hsl(219, 14%, 63%);
+
+}
+.message{
+    color: hsl(219, 12%, 42%);
+    border:1px solid hsl(219, 14%, 63%);
+    padding:10px;
+    text-align: center;
+}
+.read{
+    background-color: red;
+    height: 25px;
+    width:25px;
+    border-radius: 50%;
+}
+.picture{
+    margin-left: 100px;
+}
